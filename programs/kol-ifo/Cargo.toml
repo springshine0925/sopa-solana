@@ -1,0 +1,32 @@
+[package]
+name = "kol-ifo"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "kol_ifo"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+
+[dependencies]
+anchor-lang = { version = "0.29.0", features = ["init-if-needed"] }
+anchor-spl = { version = "0.29.0" }
+solana-program = "1.18.11"
+ahash = "0.8.6"
+bigint = "4.4.3"
+rust_decimal = "1.35.0"
+rust_decimal_macros = "1.34.2"
+callee = "0.1.4"
+libsecp256k1 = "0.7.1"
+sha3 = "0.10.8"
+rand = "0.8.5"
+hex = "0.4.3"
+anyhow="1.0.82"
