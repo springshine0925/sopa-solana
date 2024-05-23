@@ -7,7 +7,7 @@ pub mod state;
 
 use instructions::*;
 
-declare_id!("GwLvNYDs95cP4FNCLcvLNG7wurP5oQk8KdfyA5MGnsk5");
+declare_id!("HriNKHHyHpiKujKSzfTujKoR5NEwX2mP7qmRxwnHoZ4i");
 
 #[program]
 pub mod sopad_solana {

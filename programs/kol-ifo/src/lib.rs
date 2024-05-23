@@ -7,7 +7,7 @@ mod errors;
 
 use instructions::*;
 
-declare_id!("DpbL8PgWgFMnSrAXYBst7Fuhx7ne14JsVisYRdVCDnkY");
+declare_id!("2WFNE7Dv7sch8kziKHcE1btR4o5CMeG6dmHYXeTmpDph");
 
 #[program]
 pub mod kol_ifo {
