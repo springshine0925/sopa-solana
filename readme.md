@@ -127,7 +127,8 @@ return uint256;
 ```
 
 ### Port3IFO Doc
-
+`````````````````
+`````````````````
 #### IFO Pool
 ```
 contract.poolInfo(uint8 _pid)
